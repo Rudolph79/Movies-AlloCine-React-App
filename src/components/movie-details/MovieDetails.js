@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 
 class MovieDetails extends Component {
     render() {
-        return <div className="w-25">MovieDetails</div>
+        return (
+            /* w-25 signifie 25% de la largeur width */
+            <div className="w-25">
+                MovieDetails
+            </div>
+        )
     }
 }
 
